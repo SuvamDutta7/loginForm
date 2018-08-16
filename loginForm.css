@@ -1,0 +1,125 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    background: url(Images/bg.jpg) no-repeat center center fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Alegreya Sans', sans-serif;
+
+
+
+}
+
+
+.login{
+
+    width:300px;
+    height: 400px;
+    background: #000;
+    color: aliceblue;
+    top: 50%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    opacity: 0.9;
+    border-radius: 10px;
+    padding: 60px 30px;
+}
+
+.avtar{
+
+    width:120px;
+    height:120px;
+
+    border-radius: 50%;
+    position: absolute;
+
+
+    top:-70px;
+    left:calc(50% - 70px);
+
+}
+
+
+h1{
+
+    margin: 0;
+
+    padding: 0 0 20px;
+
+    text-align: center;
+
+    font-size: 30px;
+
+}
+
+.login p{
+
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+
+}
+
+.login input{
+
+    width: 100%;
+
+    margin-bottom: 20px;
+}
+
+.login input[type="text"], input[type="Password"]
+{
+
+
+        border: none;
+    border-bottom:  1px solid #fff;
+
+    background: transparent;
+    outline:none;
+    height: 40px;
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.login input[type="submit"]
+{
+
+    border: none;
+
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color:#fff;
+    font-size: 18px;
+    border-radius: 20px;
+
+}
+
+.login input[type="submit"]:hover
+{
+    cursor: pointer;
+
+    background:#ffc107;
+
+    color: aliceblue;
+
+}
+
+.login a{
+
+    text-decoration: none;
+
+    font-size: 12px;
+
+    line-height: 20px;
+
+    color:bisque;
+}
+
+.login a:hover{
+
+    color: #ffc107;
+}
